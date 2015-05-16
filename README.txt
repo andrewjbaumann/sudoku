@@ -6,7 +6,7 @@ sudoku is a command-line based C++ program that solves a sudoku puzzle.
 done for hunter college's CSCI 235 class with David Guy Brizan.
 
 Assignment text:
-CSCI 235 ñ Software Design & Analysis II
+CSCI 235 ‚Äì Software Design & Analysis II
 Assignment 2
 Introduction
 Before starting this assignment, read the following programming rules:
@@ -17,7 +17,7 @@ this assignment individually.
 Your grade will be based on the following:
 50% = Correctness (conformance to the requirements below)
 The program must compile and run on one of the G-lab machines. In addition, it must perform
-the functions outlined in the ìAssignmentî section.
+the functions outlined in the ‚ÄúAssignment‚Äù section.
 25% = Design
 The program must show a reasonable object-oriented decomposition of the assignment into
 classes and must be recursive.
@@ -28,7 +28,7 @@ in terms of the amount of computational cycles used.
 The implementation must have good comments; variables must have reasonable names, and the
 submission must have instructions on how to compile and execute (run) the program. Prompts, if
 any, must be clear and must explain what the program expects and requires to execute
-successfully. The package must be placed on Blackboard as outlined in the ìSubmissionî section.
+successfully. The package must be placed on Blackboard as outlined in the ‚ÄúSubmission‚Äù section.
 There is a 10-point late penalty per day after the first day.
 Background
 Sudoku is a logic-based, combinatorial number-placement puzzle. For example:
@@ -56,12 +56,15 @@ number between 1 and 9 in the top left cell of the grid. It should then place ot
 remaining cells to satisfy the constraints of the puzzle. Your solution must be recursive. It may also use
 a backtracking algorithm.
 Submission
-Submit your source code on Blackboard. Submit all your code and documentation as one ìtar.gzî file.
+Submit your source code on Blackboard. Submit all your code and documentation as one ‚Äútar.gz‚Äù file.
 A tar file concatenates a bunch of different files (without compressing them). A gz (gzip) file
 compresses a single file. You can create a tar file (named "a2.tar") in the same directory from three files
 (main.cpp This.hpp This.cpp) with the following command:
+
 tar -cvf ./a2.tar main.cpp This.hpp This.cpp
-You can gzip the tar file above with the following command:
+
+You can gzip the tar file above withthe following command:
 gzip a2.tar
+
 This creates a file in the same directory called "a2.tar.gz", which is what you should submit on
 Blackboard.
